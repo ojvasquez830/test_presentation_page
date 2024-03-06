@@ -1,0 +1,149 @@
+.name-container {
+    background-image: url("./assets/random-background-1920-x-1080-0pluvngpzzz70q3n.jpg");
+    padding-bottom: 0;
+}
+
+.trees-div {
+    background-image: url("./assets/kisspng-white-black-snow-bifurcated-dead-tree-forest-5a8bb920a81970.9881272115191063366885.png"); 
+    height: 200px;
+    width: 100%;
+    background-size: auto 200px; /* Scale image to 200px in height */
+    background-repeat: repeat-x; /* Repeat horizontally if needed */
+    background-position: center; /* Center the background image */
+}
+.trees-img {
+    height: 200px;
+}
+
+.name-text {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cloud-2 {
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+}
+
+.cloud-1 {
+    padding-left: 40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height:100vh;
+}
+
+.pic-container > img 
+{
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 3px black;
+    width: 50px;
+}
+hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+.skills-grid {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    padding-right: 100px;
+}
+
+.skills-grid > *:nth-child(odd) {
+    justify-self: end; /* This will justify items in the first column to the left */
+}
+
+.footer-container {
+    background-color: #1A1B1D;
+    padding-bottom: 0px;
+}
+
+.centralized {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-container {
+    color: white;
+}
+
+/* unvisited link */
+.footer-container a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  .footer-container a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  .footer-container a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  .footer-container a:active {
+    color: blue;
+  }
+
+  .footer-container a {
+    padding: 20px;
+  }
+  .footer-container p {
+    padding-top: 20px;
+  }
+
+  .touch-container p {
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .pic-container p {
+    text-align: center;
+    max-width: 300px;
+  }
+
+  h2 {
+    padding-bottom: 30px;
+  }
+
+  .touch-container a {
+    margin-top: 40px;
+    display: block;
+    width: 115px;
+    background: #1A1B1D;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+p, a {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
